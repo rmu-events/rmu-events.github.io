@@ -2704,9 +2704,10 @@ input, select, textarea {
 
 		/* Box */
 
-			.box br {
+			/*.box br {
 				display: none;
 			}
+			*/
 
 		/* Header */
 
