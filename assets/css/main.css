@@ -2134,6 +2134,28 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	.logo {
+		border-radius: 3px;
+		border: 0;
+		position: relative;
+	}
+
+		.logo img {
+			border-radius: 3px;
+			width: 40vw;
+			vertical-align:middle;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.logo img {
+				border-radius: 3px;
+				width: 50vw;
+				padding: 10px;
+			}
+
+		}
+
 /* List */
 
 	ol {
@@ -3599,6 +3621,7 @@ input, select, textarea {
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			margin-top: 50px;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3661,7 +3684,7 @@ input, select, textarea {
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
-			position: absolute;
+			position: relative;
 			text-align: center;
 			text-transform: uppercase;
 			width: 16em;
@@ -3707,7 +3730,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 7em 3em 5em 3em ;
+				padding: 1em 3em 3em 3em ;
 				height: auto;
 				min-height: 0;
 			}
