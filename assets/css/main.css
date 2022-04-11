@@ -2811,7 +2811,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3600,7 +3600,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		min-height: 25em;
+		padding: 4em 6em 1em 6em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3616,12 +3616,9 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 3.00em;
 			opacity: 1;
-			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
-			margin-top: 50px;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3652,8 +3649,11 @@ input, select, textarea {
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			font-size: 1.5em;
+			font-weight: bold;
+			line-height: normal;
+			margin: 1em 1em 1em 1em;
 		}
 
 			#banner p a {
@@ -3677,7 +3677,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 8.5em;
+			height: 6.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3696,7 +3696,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2em;
 				content: '';
 				display: block;
 				height: 1.5em;
@@ -3730,7 +3730,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 1em 3em 3em 3em ;
+				padding: 1em 3em 1em 3em ;
 				height: auto;
 				min-height: 0;
 			}
