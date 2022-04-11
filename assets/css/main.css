@@ -2104,10 +2104,6 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		background-image: url(./images/pic03.jpg);
-		background-size: cover;
-		background-position: center center;
-		height: 35em;
 	}
 
 		.image img {
@@ -2145,17 +2141,14 @@ input, select, textarea {
 				width: 100%;
 			}
 
-	@media screen and (max-width: 980px){
-		.image {
-			max-height: 15em;
-		}
+	.image01 {
+		width: 50%;
+		display: block;
 	}
 
-	.image2 {
-		background-image: url('./images/pic02.jpg');
-		height: 30em;
-		background-size: cover;
-		background-position: center center;
+	.imagelogo {
+		max-width: 100%;
+		display: block;
 	}
 
 	.logo {
