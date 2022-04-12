@@ -4082,8 +4082,8 @@ input, select, textarea {
 	}
 
 .sponsorimage {
-	max-width: 25em;
-	max-height: 25em;
+	max-width: 20em;
+	max-height: 7.5em;
 	display: block;
 	margin: 0 auto;  
 	align-self: center;
