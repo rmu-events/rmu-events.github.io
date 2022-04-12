@@ -2595,10 +2595,10 @@ input, select, textarea {
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
-			display: block;
+			padding: 2em 2em 2em 2em ;
+			display: flex;
 			position: relative;
-			text-align: left;
+			text-align: center;
 			width: 50%;
 		}
 
@@ -2642,6 +2642,22 @@ input, select, textarea {
 				background-color: rgba(0, 0, 0, 0.35);
 			}
 
+			.features li:nth-child(11) {
+				background-color: rgba(0, 0, 0, 0.385);
+			}
+
+			.features li:nth-child(12) {
+				background-color: rgba(0, 0, 0, 0.42);
+			}
+
+			.features li:nth-child(13) {
+				background-color: rgba(0, 0, 0, 0.455);
+			}
+
+			.features li:nth-child(14) {
+				background-color: rgba(0, 0, 0, 0.490);
+			}
+
 			.features li:before {
 				display: block;
 				color: #c2b407;
@@ -2652,19 +2668,19 @@ input, select, textarea {
 			}
 
 			.features li:nth-child(1) {
-				border-top-left-radius: 3px;
+				border-top-left-radius: 9px;
 			}
 
 			.features li:nth-child(2) {
-				border-top-right-radius: 3px;
+				border-top-right-radius: 9px;
 			}
 
 			.features li:nth-last-child(1) {
-				border-bottom-right-radius: 3px;
+				border-bottom-right-radius: 9px;
 			}
 
 			.features li:nth-last-child(2) {
-				border-bottom-left-radius: 3px;
+				border-bottom-left-radius: 9px;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -4064,3 +4080,16 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.sponsorimage {
+	max-width: 25em;
+	max-height: 25em;
+	display: block;
+	margin: 0 auto;  
+	align-self: center;
+}
+
+@media screen and (max-width: 480px) {
+
+
+}
