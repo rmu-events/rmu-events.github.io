@@ -2742,6 +2742,10 @@ input, select, textarea {
 
 			}
 
+			.features li h3 {
+				margin: 0;
+			}
+
 /* Spotlight */
 
 	.spotlight {
