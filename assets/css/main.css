@@ -2600,6 +2600,7 @@ input, select, textarea {
 			position: relative;
 			text-align: center;
 			width: 50%;
+			justify-content: center;
 		}
 
 			.features li:nth-child(1) {
@@ -2690,9 +2691,8 @@ input, select, textarea {
 				display: block;
 				color: #c2b407;
 				position: absolute;
-				left: 1.75em;
-				top: 2.75em;
-				font-size: 1.5em;
+				left: 1em;
+				font-size: 2.5em;
 			}
 
 			.features li:nth-child(1) {
