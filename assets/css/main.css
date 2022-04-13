@@ -2719,7 +2719,7 @@ input, select, textarea {
 				}
 
 					.features li:before {
-						left: 0;
+						left: -1em;
 						margin: 0 0 1em 0;
 						position: relative;
 						top: 0;
