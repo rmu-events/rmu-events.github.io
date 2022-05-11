@@ -2695,6 +2695,30 @@ input, select, textarea {
 				background-color: rgba(0, 0, 0, 0.46);
 			}
 
+			.features li:nth-child(23) {
+				background-color: rgba(0, 0, 0, 0.48);
+			}
+
+			.features li:nth-child(24) {
+				background-color: rgba(0, 0, 0, 0.50);
+			}
+
+			.features li:nth-child(25) {
+				background-color: rgba(0, 0, 0, 0.52);
+			}
+
+			.features li:nth-child(26) {
+				background-color: rgba(0, 0, 0, 0.54);
+			}
+
+			.features li:nth-child(27) {
+				background-color: rgba(0, 0, 0, 0.56);
+			}
+
+			.features li:nth-child(28) {
+				background-color: rgba(0, 0, 0, 0.58);
+			}
+
 			.features li:before {
 				display: block;
 				color: #c2b407;
