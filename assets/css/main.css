@@ -2285,7 +2285,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 700px) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -2527,7 +2527,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #7b1717;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2537,7 +2537,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #7b1717 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2545,7 +2545,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #7b1717 !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2717,6 +2717,38 @@ input, select, textarea {
 
 			.features li:nth-child(28) {
 				background-color: rgba(0, 0, 0, 0.58);
+			}
+
+			.features li:nth-child(29) {
+				background-color: rgba(0, 0, 0, 0.60);
+			}
+
+			.features li:nth-child(30) {
+				background-color: rgba(0, 0, 0, 0.62);
+			}
+
+			.features li:nth-child(31) {
+				background-color: rgba(0, 0, 0, 0.64);
+			}
+
+			.features li:nth-child(32) {
+				background-color: rgba(0, 0, 0, 0.66);
+			}
+
+			.features li:nth-child(33) {
+				background-color: rgba(0, 0, 0, 0.68);
+			}
+
+			.features li:nth-child(34) {
+				background-color: rgba(0, 0, 0, 0.70);
+			}
+
+			.features li:nth-child(35) {
+				background-color: rgba(0, 0, 0, 0.72);
+			}
+
+			.features li:nth-child(36) {
+				background-color: rgba(0, 0, 0, 0.74);
 			}
 
 			.features li:before {
