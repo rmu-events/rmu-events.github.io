@@ -4150,6 +4150,20 @@ input, select, textarea {
 	align-self: center;
 }
 
+.sponsormainimage {
+	max-width: 20em;
+	display: block;
+	margin: 0 auto;  
+	align-self: center;
+}
+
+.sponsormaindiv {
+	padding: 30px;
+    border-color: #244887;
+    border: solid;
+    border-width: 10px;
+}
+
 .sponsorimageborder {
 	border-radius: 15px;
 }
